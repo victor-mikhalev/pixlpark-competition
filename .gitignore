@@ -1,10 +1,13 @@
 [Oo]bj/
 [Bb]in/
+packages/
 .nuget/
 _ReSharper.*
 *.user
 *.suo
 *.userprefs
 *.sln.ide
-/Competition/.vs/
-/Competition/packages/
+/src/.vs/
+/packages/
+
+
