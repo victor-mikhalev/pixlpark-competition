@@ -13,7 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\StandardReplacer\StandardReplacer.csproj" />
+    <ProjectReference Include="..\Pixlpark.Text\Pixlpark.Text.csproj" />
   </ItemGroup>
 
 </Project>

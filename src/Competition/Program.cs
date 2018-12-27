@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using BenchmarkDotNet.Attributes;
 using BenchmarkDotNet.Running;
+using Pixlpark.Text;
 
 namespace Competition
 {
@@ -35,7 +36,7 @@ namespace Competition
         {
             for (int i = 0; i < IterationsCount; i++)
             {
-                StandardReplacer.Replacer.Replace(InputData, token =>
+                StandardReplacer.Replace(InputData, token =>
                 {
                     var t = "[$" + token + "$]";
                     return ReplacementData[t];
@@ -48,7 +49,7 @@ namespace Competition
         {
             for (int i = 0; i < IterationsCount; i++)
             {
-                StandardReplacer.StupidReplacer.Replace(InputData, token =>
+                StupidReplacer.Replace(InputData, token =>
                 {
                     var t = "[$" + token + "$]";
                     return ReplacementData[t];

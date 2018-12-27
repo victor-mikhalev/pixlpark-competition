@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace StandardReplacer
+namespace Pixlpark.Text
 {
     /// <summary>
     /// FastReplacer is a utility class similar to StringBuilder, with fast Replace function.

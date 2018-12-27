@@ -1,8 +1,9 @@
 using NUnit.Framework;
+using Pixlpark.Text;
 
 namespace Tests
 {
-    public class StandardReplacerTests
+    public class StupidReplacerTests
     {
         [SetUp]
         public void Setup()
@@ -13,7 +14,7 @@ namespace Tests
         public void ReplaceSingle()
         {
             var input = "[$ data $] asdfasdfasdfasdf";
-            var result = StandardReplacer.Replacer.Replace(input, token => "data");
+            var result = StupidReplacer.Replace(input, token => "data");
             Assert.AreEqual("data asdfasdfasdfasdf", result);
         }
 
@@ -21,7 +22,7 @@ namespace Tests
         public void ReplaceMultiple()
         {
             var input = "[$ data1 $][$ data2 $] asdfasdfasdfasdf[$ data3 $]";
-            var result = StandardReplacer.Replacer.Replace(input, token =>
+            var result = StupidReplacer.Replace(input, token =>
             {
                 if (token == " data1 ") return "data1";
                 if (token == " data2 ") return "data2";
@@ -36,7 +37,7 @@ namespace Tests
         {
             var input = "[$ data $] asdfasdfasdfasdf";
 
-            var result = StandardReplacer.Replacer.Replace(input, token =>
+            var result = StupidReplacer.Replace(input, token =>
             {
                 if (token == " data ") return "in [$ inside $]";
                 if (token == " inside ") return "bum!";

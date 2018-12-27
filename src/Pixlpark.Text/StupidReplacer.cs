@@ -1,8 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 
-namespace StandardReplacer
+namespace Pixlpark.Text
 {
     public static class StupidReplacer
     {

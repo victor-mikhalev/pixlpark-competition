@@ -236,14 +236,14 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\StandardReplacer\StandardReplacer.csproj">
-      <Project>{f078f4ff-2afe-4dc5-a2dd-8679164e19fa}</Project>
-      <Name>StandardReplacer</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <Analyzer Include="..\..\packages\Microsoft.CodeAnalysis.Analyzers.2.6.1\analyzers\dotnet\cs\Microsoft.CodeAnalysis.Analyzers.dll" />
     <Analyzer Include="..\..\packages\Microsoft.CodeAnalysis.Analyzers.2.6.1\analyzers\dotnet\cs\Microsoft.CodeAnalysis.CSharp.Analyzers.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Pixlpark.Text\Pixlpark.Text.csproj">
+      <Project>{b28d98c5-1711-43b8-9d96-e494eef0dc8f}</Project>
+      <Name>Pixlpark.Text</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

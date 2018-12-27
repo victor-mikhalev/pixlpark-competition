@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace StandardReplacer
+namespace Pixlpark.Text
 {
-    public static class Replacer
+    public static class StandardReplacer
     {
         public static string Replace(string pageContent, Func<string, string> replacementResolver)
         {

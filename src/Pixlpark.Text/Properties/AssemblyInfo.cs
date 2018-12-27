@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("StandardReplacer")]
+[assembly: AssemblyTitle("Pixlpark.Text")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("StandardReplacer")]
+[assembly: AssemblyProduct("Pixlpark.Text")]
 [assembly: AssemblyCopyright("Copyright ©  2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("f078f4ff-2afe-4dc5-a2dd-8679164e19fa")]
+[assembly: Guid("b28d98c5-1711-43b8-9d96-e494eef0dc8f")]
 
 // Version information for an assembly consists of the following four values:
 //
