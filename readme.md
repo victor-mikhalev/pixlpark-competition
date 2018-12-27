@@ -20,6 +20,6 @@
 Предложенный алгоритм должен быть быстрее минимум в 1,5 раза.
 
 ## Приз
-Б/У iPad  Pro 9.7-inch Wi-Fi 32GB - Silver
+[Б/У iPad  Pro 9.7-inch Wi-Fi 32GB - Silver](https://market.yandex.ru/product--planshet-apple-ipad-pro-9-7-32gb-wi-fi/13584214)
 
 Приз получит только сотрудник нашей компании (ООО Флог).
