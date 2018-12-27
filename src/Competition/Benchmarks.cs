@@ -8,7 +8,6 @@ namespace Competition
     [MemoryDiagnoser]
     public class Benchmarks
     {
-        private const int IterationsCount = 1_000;
         private static IReadOnlyDictionary<string, string> ReplacementData;
         private static string InputData;
 
@@ -23,27 +22,21 @@ namespace Competition
         [Benchmark]
         public static void RunStandardReplacer()
         {
-            for (int i = 0; i < IterationsCount; i++)
+            StandardReplacer.Replace(InputData, token =>
             {
-                StandardReplacer.Replace(InputData, token =>
-                {
-                    var t = "[$" + token + "$]";
-                    return ReplacementData[t];
-                });
-            }
+                var t = "[$" + token + "$]";
+                return ReplacementData[t];
+            });
         }
 
         [Benchmark]
         public static void RunStupidReplacer()
         {
-            for (int i = 0; i < IterationsCount; i++)
+            StupidReplacer.Replace(InputData, token =>
             {
-                StupidReplacer.Replace(InputData, token =>
-                {
-                    var t = "[$" + token + "$]";
-                    return ReplacementData[t];
-                });
-            }
+                var t = "[$" + token + "$]";
+                return ReplacementData[t];
+            });
         }
     }
 }
