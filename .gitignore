@@ -1,7 +1,5 @@
 [Oo]bj/
 [Bb]in/
-**/packages/*
-/packages/*/
 .nuget/
 _ReSharper.*
 *.user
