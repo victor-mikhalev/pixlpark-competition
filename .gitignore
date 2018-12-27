@@ -1,6 +1,7 @@
 [Oo]bj/
 [Bb]in/
-packages/
+**/packages/*
+/packages/*/
 .nuget/
 _ReSharper.*
 *.user
@@ -9,5 +10,3 @@ _ReSharper.*
 *.sln.ide
 /src/.vs/
 /packages/
-
-

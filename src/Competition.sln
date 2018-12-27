@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Competition", "Competition.csproj", "{D4F41AEF-BC33-4EC3-9DEF-7078466874CA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Competition", "Competition\Competition.csproj", "{D4F41AEF-BC33-4EC3-9DEF-7078466874CA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StandardReplacer", "StandardReplacer\StandardReplacer.csproj", "{F078F4FF-2AFE-4DC5-A2DD-8679164E19FA}"
 EndProject
