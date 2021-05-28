@@ -12,5 +12,5 @@
 - E-Commerce Platform
 
 
-[AzureDevOps](https://dev.azure.com/pixlpark)
-[Get Started](#docsify)
+[GitHub](https://github.com/Pixlpark/pixlpark-competition)
+[Get Started](About.md)
