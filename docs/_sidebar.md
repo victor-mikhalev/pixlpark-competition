@@ -1,7 +1,8 @@
-<!-- docs/_sidebar.md -->
+﻿<!-- docs/_sidebar.md -->
 - Home
 	- [Home](/)
-- Readme
+- Info
+	- [Руководство](quickstart.md)
 	- [README](README.md)
 -About
 	- [About](About.md)
