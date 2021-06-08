@@ -1,8 +1,7 @@
 ﻿<!-- docs/_sidebar.md -->
 - Home
 	- [Home](/)
-- Info
+- Информация
+	- [Прочти меня](README.md)
 	- [Руководство](quickstart.md)
-	- [README](README.md)
--About
-	- [About](About.md)
+	- [О нас](About.md)
